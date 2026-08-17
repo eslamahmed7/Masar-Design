@@ -18,9 +18,9 @@ export const SITE_CONFIG = {
 
   nav: [
     { labelAr: 'الرئيسية', labelEn: 'Home', href: '/' },
-    { labelAr: 'أعمالنا', labelEn: 'Our Work', href: '/projects' },
+    { labelAr: 'أعمالنا', labelEn: 'Projects', href: '/projects' },
     { labelAr: 'الخدمات', labelEn: 'Services', href: '/services' },
-    { labelAr: 'عن مسار', labelEn: 'About Masar', href: '/about' },
+    { labelAr: 'عن مسار', labelEn: 'About', href: '/about' },
     { labelAr: 'تواصل معنا', labelEn: 'Contact Us', href: '/contact' },
   ],
 

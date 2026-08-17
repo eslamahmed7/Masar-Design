@@ -25,8 +25,10 @@ export function LuxuryHeader() {
   const [activeSection, setActiveSection] = useState('/')
   const pathname = usePathname()
   const { openSearch } = useSearch()
-  const { openPanel, theme } = useSettings()
+  const { openPanel, theme, setLanguage } = useSettings()
   const { t, lang } = useI18n()
+
+  const toggleLanguage = () => setLanguage(lang === 'ar' ? 'en' : 'ar')
 
   const isDark =
     theme === 'dark' ||
@@ -126,19 +128,14 @@ export function LuxuryHeader() {
             backdropFilter: scrolled ? 'blur(8px)' : 'blur(0px)',
           }}
         >
-          {/* Logo - Right */}
           <Link
             href="/"
-            className="order-3 flex items-center gap-3 transition-colors group"
+            className="order-3 flex items-center transition-colors group"
           >
-            <span className="font-heading text-lg font-bold tracking-wider text-gold">
-              Masar
-            </span>
-            <div className="h-5 w-px bg-gold/25" />
             <img
               src="/masar-logo.png"
               alt={t('footer.logoAlt')}
-              className="w-11 h-11 object-contain"
+              className="w-20 h-20 object-contain"
             />
           </Link>
 
@@ -151,18 +148,17 @@ export function LuxuryHeader() {
 
           {/* Search + Settings + CTA - Left */}
           <div className="order-1 flex items-center gap-3">
-            {/* Settings button */}
+            {/* Language toggle button */}
             <motion.button
-              onClick={openPanel}
+              onClick={toggleLanguage}
               className="flex h-9 w-9 items-center justify-center rounded-full border border-gold/25 text-gold/70 transition-all hover:border-gold/50 hover:text-gold"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              aria-label={t('common.settingsAria')}
-              title={t('common.settings')}
+              aria-label="Toggle Language"
+              title={lang === 'ar' ? 'Switch to English' : 'التبديل للعربية'}
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
               </svg>
             </motion.button>
 
@@ -220,29 +216,26 @@ export function LuxuryHeader() {
           }}
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-heading group">
-            <span className="text-base font-bold text-gold">
-              Masar
-            </span>
-            <div className="h-4 w-px bg-gold/25" />
+          <Link href="/" className="flex items-center font-heading group">
             <img
               src="/masar-logo.png"
               alt={t('footer.logoAlt')}
-              className="w-8 h-8 sm:w-11 sm:h-11 object-contain"
+              className="w-14 h-14 object-contain"
             />
           </Link>
 
           {/* Search + Settings + Menu */}
           <div className="flex items-center gap-2">
+            {/* Language toggle button */}
             <motion.button
-              onClick={openPanel}
+              onClick={toggleLanguage}
               className="p-2 text-gold/70 hover:text-gold transition-colors"
               whileTap={{ scale: 0.95 }}
-              aria-label={t('common.settingsAria')}
-              title={t('common.settings')}
+              aria-label="Toggle Language"
+              title={lang === 'ar' ? 'Switch to English' : 'التبديل للعربية'}
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-.426-1.756-2.924-1.756-3.35 0a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
               </svg>
             </motion.button>
 

@@ -69,20 +69,13 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     setMounted(true)
   }, [])
 
-  // Apply theme to <html>
+  // Apply theme to <html> — always dark
   useEffect(() => {
     if (!mounted) return
     const root = document.documentElement
-    const effectiveTheme =
-      settings.theme === 'system'
-        ? window.matchMedia('(prefers-color-scheme: dark)').matches
-          ? 'dark'
-          : 'light'
-        : settings.theme
-
-    root.classList.toggle('dark', effectiveTheme === 'dark')
-    root.classList.toggle('light', effectiveTheme === 'light')
-  }, [settings.theme, mounted])
+    root.classList.add('dark')
+    root.classList.remove('light')
+  }, [mounted])
 
   // Apply dir + lang to <html>
   useEffect(() => {
