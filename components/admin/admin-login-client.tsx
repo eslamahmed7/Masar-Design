@@ -48,7 +48,7 @@ export function AdminLoginClient() {
         <div className="bg-[#1A1916] border border-[#C8A96A]/15 rounded-2xl p-8 shadow-2xl">
           {/* Logo */}
           <div className="text-center mb-8 flex flex-col items-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 mb-4 overflow-hidden">
+            <div className="inline-flex items-center justify-center w-28 h-28 mb-4 overflow-hidden">
               <img
                 src="/masar-logo.png"
                 alt="شعار مسار"

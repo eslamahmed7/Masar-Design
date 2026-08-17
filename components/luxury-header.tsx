@@ -128,14 +128,15 @@ export function LuxuryHeader() {
             backdropFilter: scrolled ? 'blur(8px)' : 'blur(0px)',
           }}
         >
+          {/* Logo - fills header height */}
           <Link
             href="/"
-            className="order-3 flex items-center transition-colors group"
+            className="order-3 flex items-center transition-opacity hover:opacity-80"
           >
             <img
               src="/masar-logo.png"
               alt={t('footer.logoAlt')}
-              className="w-20 h-20 object-contain"
+              style={{ height: scrolled ? '60px' : '78px', width: 'auto', objectFit: 'contain', transition: 'height 0.3s ease' }}
             />
           </Link>
 
@@ -151,15 +152,20 @@ export function LuxuryHeader() {
             {/* Language toggle button */}
             <motion.button
               onClick={toggleLanguage}
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-gold/25 text-gold/70 transition-all hover:border-gold/50 hover:text-gold"
-              whileHover={{ scale: 1.08 }}
+              className="flex h-9 items-center gap-1.5 px-2.5 rounded-full border border-gold/25 text-gold/70 transition-all hover:border-gold/50 hover:text-gold"
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Toggle Language"
               title={lang === 'ar' ? 'Switch to English' : 'التبديل للعربية'}
             >
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+              {/* Globe icon */}
+              <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253" />
               </svg>
+              {/* Language indicator */}
+              <span className="text-[10px] font-bold tracking-widest">
+                {lang === 'ar' ? 'EN' : 'AR'}
+              </span>
             </motion.button>
 
             {/* Search button */}
@@ -216,11 +222,11 @@ export function LuxuryHeader() {
           }}
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center font-heading group">
+          <Link href="/" className="flex items-center transition-opacity hover:opacity-80">
             <img
               src="/masar-logo.png"
               alt={t('footer.logoAlt')}
-              className="w-14 h-14 object-contain"
+              style={{ height: '64px', width: 'auto', objectFit: 'contain' }}
             />
           </Link>
 
@@ -229,14 +235,17 @@ export function LuxuryHeader() {
             {/* Language toggle button */}
             <motion.button
               onClick={toggleLanguage}
-              className="p-2 text-gold/70 hover:text-gold transition-colors"
+              className="flex items-center gap-1 px-2 py-1 rounded-full border border-gold/25 text-gold/70 hover:text-gold transition-colors"
               whileTap={{ scale: 0.95 }}
               aria-label="Toggle Language"
               title={lang === 'ar' ? 'Switch to English' : 'التبديل للعربية'}
             >
-              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+              <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253" />
               </svg>
+              <span className="text-[10px] font-bold tracking-widest">
+                {lang === 'ar' ? 'EN' : 'AR'}
+              </span>
             </motion.button>
 
             <motion.button

@@ -143,7 +143,7 @@ export function AdminSidebar({ admin, collapsed, onToggle, mobileOpen, unreadCon
     >
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-5 border-b border-[#C8A96A]/10">
-        <div className="w-9 h-9 flex items-center justify-center flex-shrink-0 overflow-hidden">
+        <div className="w-14 h-14 flex items-center justify-center flex-shrink-0 overflow-hidden">
           <img
             src="/masar-logo.png"
             alt="شعار مسار"

@@ -311,14 +311,14 @@ export function HeroSection({ hero }: Props) {
   const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '-8%'])
   const contentOpacity = useTransform(scrollYProgress, [0, 0.55], [1, 0])
 
-  // Config with fallbacks
+  // Config with fallbacks — uses i18n translations when lang is 'en'
   const cfg = {
-    headline_ar:      hero?.headline_ar      ?? t('hero.defaults.headline'),
-    subtitle_ar:      hero?.subtitle_ar      ?? t('hero.defaults.subtitle'),
-    description_ar:   hero?.description_ar   ?? t('hero.defaults.description'),
-    cta_primary_text: hero?.cta_primary_text ?? t('hero.defaults.ctaPrimary'),
+    headline:         lang === 'en' ? t('hero.defaults.headline')     : (hero?.headline_ar      ?? t('hero.defaults.headline')),
+    subtitle:         lang === 'en' ? t('hero.defaults.subtitle')     : (hero?.subtitle_ar      ?? t('hero.defaults.subtitle')),
+    description:      lang === 'en' ? t('hero.defaults.description')  : (hero?.description_ar   ?? t('hero.defaults.description')),
+    cta_primary_text: lang === 'en' ? t('hero.defaults.ctaPrimary')  : (hero?.cta_primary_text ?? t('hero.defaults.ctaPrimary')),
     cta_primary_href: hero?.cta_primary_href ?? D.cta_primary_href,
-    cta_video_text:   hero?.cta_video_text   ?? t('hero.defaults.ctaVideo'),
+    cta_video_text:   lang === 'en' ? t('hero.defaults.ctaVideo')    : (hero?.cta_video_text   ?? t('hero.defaults.ctaVideo')),
     overlay_opacity:  Math.min(hero?.overlay_opacity ?? D.overlay_opacity, 0.15),
     brightness:       hero?.brightness       ?? D.brightness,
     blur:             hero?.blur             ?? D.blur,
@@ -438,7 +438,7 @@ export function HeroSection({ hero }: Props) {
                 className="reveal-hero mb-3 font-sans text-xs tracking-[0.3em] uppercase"
                 style={{ color: 'oklch(0.81 0.12 84 / 0.70)', '--rv-delay': '0.25s' } as React.CSSProperties}
               >
-                {cfg.subtitle_ar}
+                {cfg.subtitle}
               </p>
 
               {/* Headline — clip reveal */}
@@ -447,7 +447,7 @@ export function HeroSection({ hero }: Props) {
                   className="reveal-hero-clip font-heading font-bold leading-[1.08] text-white"
                   style={{ fontSize: 'clamp(2.8rem, 6vw, 5rem)', '--rv-delay': '0.32s' } as React.CSSProperties}
                 >
-                  {cfg.headline_ar}
+                  {cfg.headline}
                 </h1>
               </div>
 
@@ -456,7 +456,7 @@ export function HeroSection({ hero }: Props) {
                 className="reveal-hero mb-9 text-sm leading-[1.85] sm:text-base"
                 style={{ color: 'oklch(0.72 0.005 60)', maxWidth: '42ch', '--rv-delay': '0.36s' } as React.CSSProperties}
               >
-                {cfg.description_ar}
+                {cfg.description}
               </p>
 
               {/* CTAs */}

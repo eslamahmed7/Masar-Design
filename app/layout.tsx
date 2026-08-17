@@ -79,7 +79,7 @@ export const metadata: Metadata = {
       'نحوّل المساحات إلى تجارب خالدة. استوديو مسار للتصميم الداخلي الفاخر في القاهرة، مصر.',
     images: [
       {
-        url: '/logo-masar.png',
+        url: '/masar-logo.png',
         width: 1200,
         height: 630,
         alt: 'مسار — استوديو التصميم الداخلي الفاخر',
@@ -91,13 +91,13 @@ export const metadata: Metadata = {
     title: 'مسار | استوديو التصميم الداخلي الفاخر',
     description:
       'نحوّل المساحات إلى تجارب خالدة. تصميم داخلي فاخر في القاهرة، مصر.',
-    images: ['/logo-masar.png'],
+    images: ['/masar-logo.png'],
   },
   manifest: '/manifest.json',
   icons: {
-    icon: '/logo-masar.png',
-    apple: '/logo-masar.png',
-    shortcut: '/logo-masar.png',
+    icon: '/masar-logo.png',
+    apple: '/masar-logo.png',
+    shortcut: '/masar-logo.png',
   },
 }
 
@@ -124,7 +124,7 @@ const jsonLd = {
       url: siteUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/logo-masar.png`,
+        url: `${siteUrl}/masar-logo.png`,
       },
       contactPoint: {
         '@type': 'ContactPoint',
@@ -158,7 +158,7 @@ const jsonLd = {
       '@type': 'LocalBusiness',
       '@id': `${siteUrl}/#localbusiness`,
       name: 'MASAR Interior Design Studio',
-      image: `${siteUrl}/logo-masar.png`,
+      image: `${siteUrl}/masar-logo.png`,
       url: siteUrl,
       telephone: '+201275477819',
       email: 'masardesign1@gmail.com',

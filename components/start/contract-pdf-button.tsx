@@ -172,7 +172,7 @@ export function ContractPDFButton({ formData, selectedService, finalTotal, curre
               <p style={{ color: '#6b7280', margin: 0 }}>تاريخ الإصدار: {currentDate}</p>
             </div>
             <div>
-              <img src="/logo-masar.png" alt="مسار" style={{ height: '4rem', objectFit: 'contain' }} crossOrigin="anonymous" />
+              <img src="/masar-logo.png" alt="مسار" style={{ height: '4rem', objectFit: 'contain' }} crossOrigin="anonymous" />
             </div>
           </div>
 

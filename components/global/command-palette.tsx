@@ -122,13 +122,31 @@ export function CommandPalette() {
   const showResults = query.trim().length > 0
   const showEmpty = showResults && results.length === 0
 
-  // Sync recent from localStorage whenever palette opens
+  // Sync recent from localStorage + lock ALL scroll when palette opens
   useEffect(() => {
     if (isOpen) {
       setRecent(getRecent())
       setQuery('')
       setActiveIndex(0)
       setTimeout(() => inputRef.current?.focus(), 60)
+      // Lock scroll on both html and body (cross-browser)
+      const prevBodyOverflow = document.body.style.overflow
+      const prevHtmlOverflow = document.documentElement.style.overflow
+      const prevBodyPos = document.body.style.position
+      const prevScrollY = window.scrollY
+      document.body.style.overflow = 'hidden'
+      document.documentElement.style.overflow = 'hidden'
+      document.body.style.position = 'fixed'
+      document.body.style.top = `-${prevScrollY}px`
+      document.body.style.width = '100%'
+      return () => {
+        document.body.style.overflow = prevBodyOverflow
+        document.documentElement.style.overflow = prevHtmlOverflow
+        document.body.style.position = prevBodyPos
+        document.body.style.top = ''
+        document.body.style.width = ''
+        window.scrollTo(0, prevScrollY)
+      }
     }
   }, [isOpen])
 
@@ -281,8 +299,8 @@ export function CommandPalette() {
                 </kbd>
               </div>
 
-              {/* Body — max height with scroll */}
-              <div className="max-h-[60vh] overflow-y-auto">
+              {/* Body — max height with scroll, isolated from page scroll */}
+              <div className="max-h-[60vh] overflow-y-auto overscroll-contain">
                 {/* ── No query: quick actions + recent + suggestions ── */}
                 {!showResults && (
                   <div className="divide-y divide-gold/10">

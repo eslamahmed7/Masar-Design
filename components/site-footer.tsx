@@ -308,7 +308,7 @@ export function SiteFooter() {
                 <img
                   src="/masar-logo.png"
                   alt={t('footer.logoAlt')}
-                  className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+                  style={{ height: '96px', width: 'auto', objectFit: 'contain' }}
                 />
                 <div>
                   <div className="mb-0.5 font-heading text-xl sm:text-3xl font-semibold text-gold transition-all duration-300 group-hover:tracking-wide">
