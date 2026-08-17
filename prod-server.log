@@ -1,0 +1,19 @@
+
+> my-project@0.1.0 start
+> next start -p 3001
+
+▲ Next.js 16.2.6
+- Local:         http://localhost:3001
+- Network:       http://10.134.49.207:3001
+✓ Ready in 239ms
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404

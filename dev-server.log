@@ -1,0 +1,1495 @@
+
+> my-project@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.134.49.207:3000
+- Environments: .env.local
+✓ Ready in 603ms
+- Experiments (use with caution):
+  · serverActions
+
+ GET / 200 in 1225ms (next.js: 283ms, application-code: 943ms)
+ GET /projects/qa-tour-0000-0000-0000-000000000001/360 404 in 1298ms (next.js: 687ms, application-code: 611ms)
+ GET / 200 in 478ms (next.js: 7ms, application-code: 472ms)
+ GET / 200 in 1438ms (next.js: 10ms, application-code: 1428ms)
+ GET / 200 in 806ms (next.js: 9ms, application-code: 797ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 620ms (next.js: 71ms, application-code: 549ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 1216ms (next.js: 723ms, application-code: 493ms)
+ GET /services 200 in 863ms (next.js: 69ms, application-code: 794ms)
+ GET /about 200 in 559ms (next.js: 69ms, application-code: 490ms)
+ GET /contact 200 in 708ms (next.js: 70ms, application-code: 638ms)
+ GET / 200 in 795ms (next.js: 9ms, application-code: 786ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 644ms (next.js: 7ms, application-code: 636ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 754ms (next.js: 20ms, application-code: 733ms)
+ GET /services 200 in 1572ms (next.js: 8ms, application-code: 1564ms)
+ GET /about 200 in 490ms (next.js: 8ms, application-code: 482ms)
+ GET /contact 200 in 2.9s (next.js: 12ms, application-code: 2.9s)
+ GET / 200 in 609ms (next.js: 7ms, application-code: 603ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 619ms (next.js: 9ms, application-code: 611ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 1279ms (next.js: 20ms, application-code: 1259ms)
+ GET /services 200 in 596ms (next.js: 8ms, application-code: 588ms)
+ GET /about 200 in 500ms (next.js: 8ms, application-code: 492ms)
+ GET /contact 200 in 819ms (next.js: 9ms, application-code: 811ms)
+ GET / 200 in 1141ms (next.js: 7ms, application-code: 1134ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 509ms (next.js: 7ms, application-code: 502ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 528ms (next.js: 16ms, application-code: 513ms)
+ GET /services 200 in 598ms (next.js: 8ms, application-code: 590ms)
+ GET /about 200 in 512ms (next.js: 7ms, application-code: 505ms)
+ GET /contact 200 in 846ms (next.js: 7ms, application-code: 839ms)
+ GET / 200 in 845ms (next.js: 8ms, application-code: 836ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 571ms (next.js: 8ms, application-code: 564ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 812ms (next.js: 20ms, application-code: 792ms)
+ GET /services 200 in 723ms (next.js: 7ms, application-code: 716ms)
+ GET /about 200 in 685ms (next.js: 7ms, application-code: 678ms)
+ GET /contact 200 in 854ms (next.js: 7ms, application-code: 846ms)
+ GET / 200 in 3.2s (next.js: 6ms, application-code: 3.2s)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 591ms (next.js: 8ms, application-code: 583ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 561ms (next.js: 16ms, application-code: 545ms)
+ GET /services 200 in 2.1s (next.js: 7ms, application-code: 2.1s)
+ GET /about 200 in 971ms (next.js: 7ms, application-code: 964ms)
+ GET /contact 200 in 720ms (next.js: 7ms, application-code: 713ms)
+ GET / 200 in 614ms (next.js: 7ms, application-code: 607ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 527ms (next.js: 8ms, application-code: 519ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 490ms (next.js: 16ms, application-code: 474ms)
+ GET /services 200 in 878ms (next.js: 8ms, application-code: 871ms)
+ GET /about 200 in 456ms (next.js: 7ms, application-code: 450ms)
+ GET /contact 200 in 684ms (next.js: 7ms, application-code: 677ms)
+ GET / 200 in 1382ms (next.js: 243ms, application-code: 1139ms)
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 629ms (next.js: 420ms, application-code: 209ms)
+[browser] Uncaught Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+[browser] ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+    at processMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2835:28)
+    at <unknown> (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2325:17) (file://C:/Users/VICTUS/OneDrive/Desktop/مشاريع البرمجة/masar-مسار/.next/dev/static/chunks/07vw_next_dist_client_0-ljexg._.js:2774:21)
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+Error while looking up import map: Unknown weight 600 for font Tajawal.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 600 for font Tajawal.
+  Available weights: 200, 300, 400, 500, 700, 800, 900
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 1367ms
+✓ Compiled in 160ms
+ GET / 200 in 1495ms (next.js: 229ms, application-code: 1266ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 1089ms (next.js: 211ms, application-code: 878ms)
+ GET /services 200 in 1722ms (next.js: 218ms, application-code: 1504ms)
+✓ Compiled in 272ms
+ GET /services 200 in 316ms (next.js: 141ms, application-code: 175ms)
+ GET /services 200 in 74ms (next.js: 9ms, application-code: 65ms)
+✓ Compiled in 123ms
+ GET /services 200 in 255ms (next.js: 138ms, application-code: 118ms)
+ GET /services 200 in 44ms (next.js: 6ms, application-code: 37ms)
+ GET /services 200 in 242ms (next.js: 144ms, application-code: 98ms)
+ GET /services 200 in 255ms (next.js: 176ms, application-code: 79ms)
+ GET /about 200 in 430ms (next.js: 261ms, application-code: 169ms)
+ GET /contact 200 in 889ms (next.js: 193ms, application-code: 695ms)
+ GET /start 200 in 236ms (next.js: 194ms, application-code: 42ms)
+ POST /start 200 in 374ms (next.js: 9ms, application-code: 365ms)
+  └─ ƒ getActivePublicPromotion() in 330ms lib/orders/coupon-actions.ts
+ POST /start 200 in 174ms (next.js: 9ms, application-code: 166ms)
+  └─ ƒ getActivePublicPromotion() in 152ms lib/orders/coupon-actions.ts
+ GET / 200 in 482ms (next.js: 29ms, application-code: 453ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 244ms (next.js: 25ms, application-code: 218ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 1830ms (next.js: 171ms, application-code: 1659ms)
+ GET /contact 200 in 515ms (next.js: 10ms, application-code: 505ms)
+ GET / 200 in 215ms (next.js: 7ms, application-code: 208ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /about 200 in 78ms (next.js: 12ms, application-code: 66ms)
+ GET /contact 200 in 533ms (next.js: 7ms, application-code: 526ms)
+ GET / 200 in 460ms (next.js: 8ms, application-code: 452ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /start 200 in 45ms (next.js: 8ms, application-code: 38ms)
+ POST /start 200 in 359ms (next.js: 7ms, application-code: 351ms)
+  └─ ƒ getActivePublicPromotion() in 340ms lib/orders/coupon-actions.ts
+ POST /start 200 in 159ms (next.js: 9ms, application-code: 151ms)
+  └─ ƒ getActivePublicPromotion() in 137ms lib/orders/coupon-actions.ts
+ GET /projects 200 in 513ms (next.js: 8ms, application-code: 504ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 74ms (next.js: 16ms, application-code: 58ms)
+ GET /about 200 in 39ms (next.js: 7ms, application-code: 32ms)
+ GET /services 200 in 51ms (next.js: 6ms, application-code: 45ms)
+ GET /start 200 in 30ms (next.js: 6ms, application-code: 24ms)
+ POST /start 200 in 323ms (next.js: 6ms, application-code: 317ms)
+  └─ ƒ getActivePublicPromotion() in 305ms lib/orders/coupon-actions.ts
+ POST /start 200 in 142ms (next.js: 6ms, application-code: 136ms)
+  └─ ƒ getActivePublicPromotion() in 124ms lib/orders/coupon-actions.ts
+ GET /projects 200 in 418ms (next.js: 8ms, application-code: 411ms)
+ GET /services 200 in 29ms (next.js: 7ms, application-code: 23ms)
+ GET /about 200 in 29ms (next.js: 6ms, application-code: 23ms)
+ GET /contact 200 in 477ms (next.js: 6ms, application-code: 471ms)
+ GET /contact 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /contact 200 in 171ms (next.js: 6ms, application-code: 164ms)
+ GET / 200 in 402ms (next.js: 5ms, application-code: 396ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+ GET /projects 200 in 954ms (next.js: 7ms, application-code: 947ms)
+ GET /projects/ba6ffb78-7455-4844-8344-76ee779ad527 200 in 42ms (next.js: 11ms, application-code: 31ms)
+ GET / 200 in 365ms (next.js: 5ms, application-code: 360ms)
+⨯ upstream image response failed for https://res.cloudinary.com/dh4tlgwtp/image/upload/v1783253091/masar/hero/vu1nqfdwlooxgbc2tdvt.jpg 404
+✓ Compiled in 113ms

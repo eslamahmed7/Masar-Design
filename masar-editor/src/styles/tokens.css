@@ -1,0 +1,79 @@
+:root {
+  --navy-900: #020a12;
+  --navy-800: #04121f;
+  --navy-700: #061c31;
+  --navy-600: #092842;
+  --navy-500: #0c3556;
+  --mint-100: #d8fce9;
+  --mint-200: #bdf8dc;
+  --mint-300: #93f3c5;
+  --mint-400: #6ee7b0;
+  --mint-500: #45c98d;
+
+  --bg-app: var(--navy-800);
+  --bg-panel: var(--navy-700);
+  --bg-panel-alt: #092842;
+  --bg-header: var(--navy-700);
+  --bg-input: rgba(147, 243, 197, 0.05);
+  --bg-input-hover: rgba(147, 243, 197, 0.09);
+  --bg-hover: rgba(147, 243, 197, 0.07);
+  --bg-active: rgba(147, 243, 197, 0.12);
+  --bg-selected: rgba(147, 243, 197, 0.11);
+
+  --border: rgba(147, 243, 197, 0.1);
+  --border-strong: rgba(147, 243, 197, 0.22);
+  --border-focus: rgba(147, 243, 197, 0.5);
+
+  --text: #e6f2ff;
+  --text-muted: #8fa9c4;
+  --text-faint: #5c7694;
+  --text-disabled: #364f6b;
+
+  --accent: var(--mint-300);
+  --accent-bright: var(--mint-200);
+  --accent-dim: var(--mint-500);
+  --accent-bg: rgba(147, 243, 197, 0.1);
+  --accent-glow: 0 0 16px rgba(147, 243, 197, 0.35);
+
+  --danger: #ff7b72;
+  --danger-bg: rgba(255, 123, 114, 0.12);
+  --success: #6ee7b0;
+  --success-bg: rgba(110, 231, 176, 0.12);
+  --info: #7cc4f5;
+  --info-bg: rgba(124, 196, 245, 0.12);
+  --warn: #ffd479;
+
+  --titlebar-h: 40px;
+  --menubar-h: 30px;
+  --toolbar-h: 48px;
+  --statusbar-h: 26px;
+
+  --radius-sm: 7px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  --shadow-pop: 0 14px 44px rgba(2, 12, 24, 0.65), 0 0 0 1px rgba(147, 243, 197, 0.07);
+  --shadow-panel: 0 4px 20px rgba(2, 12, 24, 0.45);
+
+  --font-ui: "Segoe UI Variable Text", "Segoe UI", "Tajawal", "Cairo", system-ui, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", "Tajawal", "Cairo", system-ui, sans-serif;
+}
+
+*[data-theme='light'] {
+  --bg-app: #f0f6fb;
+  --bg-panel: #ffffff;
+  --bg-panel-alt: #e9f1f8;
+  --bg-header: #ffffff;
+  --bg-input: #f2f7fb;
+  --bg-hover: rgba(9, 51, 87, 0.06);
+  --bg-active: rgba(9, 51, 87, 0.1);
+  --border: rgba(9, 51, 87, 0.14);
+  --border-strong: rgba(9, 51, 87, 0.28);
+  --text: #093357;
+  --text-muted: #3f6085;
+  --text-faint: #7d96af;
+  --accent: #0d8f63;
+  --accent-bright: #0d8f63;
+  --accent-dim: #0a6b4c;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مسار فيو — معارض المشاريع بجولة 360°</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f0d0b'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23e5ba5f' font-family='serif' font-weight='bold'%3Eم%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f0d0b;
+      --panel: #14110f;
+      --card: #181513;
+      --gold: #e5ba5f;
+      --gold-soft: #eace8c;
+      --gold-muted: #b99964;
+      --text: #f1eee9;
+      --muted: #a49d94;
+      --line: rgba(241, 238, 233, 0.1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Tajawal', 'Segoe UI', Tahoma, sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .heading { font-family: 'El Messiri', 'Segoe UI', Tahoma, serif; }
+    .bg-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image:
+        linear-gradient(rgba(232, 206, 140, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(232, 206, 140, 0.04) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.3) 60%, transparent);
+    }
+    .glow {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 55% 40% at 50% -5%, rgba(229,186,95,0.14), transparent 65%),
+        radial-gradient(ellipse 40% 30% at 12% 75%, rgba(229,186,95,0.05), transparent 60%);
+    }
+    header {
+      position: sticky; top: 0; z-index: 20;
+      display: flex; align-items: center; gap: 16px;
+      padding: 12px 28px;
+      background: rgba(15,13,11,0.78);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(229,186,95,0.15);
+    }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand-mark {
+      width: 38px; height: 38px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'El Messiri', serif; font-weight: 700; font-size: 20px;
+      color: #0a0804;
+      background: linear-gradient(130deg, #efc469, #c9a15b);
+      box-shadow: 0 0 24px rgba(229,186,95,0.35);
+    }
+    .brand-name { font-family: 'El Messiri', serif; font-size: 17px; font-weight: 700; color: var(--gold); }
+    .brand-tag { display: block; font-size: 9.5px; color: var(--muted); letter-spacing: 0.14em; text-transform: uppercase; }
+    nav { display: flex; gap: 4px; margin-inline-start: 24px; }
+    nav a {
+      padding: 8px 14px; font-size: 13px; color: var(--muted);
+      text-decoration: none; border-radius: 8px; transition: color 0.2s;
+    }
+    nav a:hover { color: var(--text); }
+    .hero {
+      position: relative; z-index: 1;
+      display: flex; flex-direction: column; align-items: center; text-align: center;
+      gap: 18px; padding: 90px 24px 50px;
+    }
+    .eyebrow {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--gold);
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: ''; width: 34px; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold));
+    }
+    .eyebrow::after { background: linear-gradient(90deg, var(--gold), transparent); }
+    .hero h1 {
+      font-size: clamp(34px, 5.5vw, 54px); font-weight: 700; line-height: 1.3;
+    }
+    .gold-text {
+      background: linear-gradient(100deg, var(--gold-muted), var(--gold-soft) 45%, var(--gold) 55%, var(--gold-muted));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero p { max-width: 600px; font-size: 15.5px; line-height: 1.9; color: var(--muted); }
+    .stats { display: flex; gap: 14px; margin-top: 20px; }
+    .stat {
+      min-width: 130px; padding: 12px 22px; border-radius: 16px;
+      background: rgba(255,255,255,0.03); border: 1px solid var(--line);
+    }
+    .stat-num { font-family: 'El Messiri', serif; font-size: 24px; font-weight: 700; }
+    .stat-label { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+    .projects {
+      position: relative; z-index: 1;
+      max-width: 1080px; margin: 0 auto; padding: 30px 28px 90px;
+    }
+    .projects-head { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px; margin-bottom: 40px; }
+    .projects-head h2 { font-size: clamp(26px, 3.5vw, 38px); font-weight: 700; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .card {
+      position: relative; display: flex; flex-direction: column; overflow: hidden;
+      border-radius: 20px;
+      background: linear-gradient(160deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+      border: 1px solid rgba(229,186,95,0.22);
+      text-decoration: none; color: inherit;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(229,186,95,0.55);
+      box-shadow: 0 24px 60px -24px rgba(201,168,106,0.35);
+    }
+    .card-cover {
+      position: relative; height: 190px; background: var(--card);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card-cover img { width: 100%; height: 100%; object-fit: cover; }
+    .card-cover .noimg { font-size: 40px; color: rgba(229,186,95,0.5); font-family: 'El Messiri', serif; }
+    .card-cover .badge {
+      position: absolute; top: 10px; inset-inline-end: 10px;
+      padding: 4px 12px; border-radius: 999px;
+      background: rgba(10,8,4,0.7); color: var(--gold);
+      font-size: 11px; font-weight: 600;
+      border: 1px solid rgba(229,186,95,0.4);
+      backdrop-filter: blur(4px);
+    }
+    .card-body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+    .card-name { font-family: 'El Messiri', serif; font-size: 20px; font-weight: 700; }
+    .card-client { font-size: 12px; color: var(--gold); }
+    .card-desc {
+      font-size: 12.5px; color: var(--muted); line-height: 1.8;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-meta { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+    .chip {
+      font-size: 11px; color: var(--muted);
+      border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px;
+      background: rgba(255,255,255,0.03);
+    }
+    .card-cta {
+      margin-top: 6px; font-size: 13px; font-weight: 700; color: var(--gold);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .empty {
+      grid-column: 1 / -1; text-align: center; padding: 70px 20px;
+      color: var(--muted); font-size: 14px; line-height: 2;
+      border: 1px dashed rgba(229,186,95,0.3); border-radius: 20px;
+    }
+    .empty b { color: var(--gold); font-family: 'El Messiri', serif; font-size: 17px; }
+    footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid rgba(229,186,95,0.14);
+      background: #040302;
+      padding: 28px;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      font-size: 12px; color: #6b655c;
+    }
+    footer .hint { color: var(--gold); opacity: 0.8; }
+    @media (max-width: 640px) {
+      nav { display: none; }
+      .stats { flex-direction: column; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow"></div>
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark">م</div>
+      <div>
+        <div class="brand-name">مسار</div>
+        <span class="brand-tag">Masar Viewer</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#projects">المشاريع</a>
+      <a href="#about">عن مسار</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">استوديو التصميم الداخلي</div>
+    <h1 class="heading">شاهد مشاريعنا <span class="gold-text">بجولة 360°</span></h1>
+    <p>استكشف تصاميمنا من الداخل — تنقّل بين الغرف، شاهد المنتجات والتفاصيل، وكأنك داخل المساحة بنفسك.</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-num gold-text" id="statRooms">–</div><div class="stat-label">غرفة بجولة 360°</div></div>
+      <div class="stat"><div class="stat-num gold-text" id="statProjects">–</div><div class="stat-label">مشروع منشور</div></div>
+      <div class="stat"><div class="stat-num gold-text">100%</div><div class="stat-label">تصميم مخصص</div></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="projects-head">
+      <div class="eyebrow">أعمالنا</div>
+      <h2 class="heading">كل مشروع يحكي <span class="gold-text">قصة مختلفة</span></h2>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="projects" id="about">
+    <div class="projects-head">
+      <div class="eyebrow">عن مسار</div>
+      <h2 class="heading">تصميم ليس شكلاً — <span class="gold-text">بل أسلوب حياة</span></h2>
+    </div>
+    <div class="hero" style="padding-top:0">
+      <p style="max-width:640px">
+        في مسار، لا نصمم المساحات فحسب — بل نصوغ تجارب تُعاش كل يوم. نمزج بين الفخامة الهادئة
+        والمواد الأصيلة والضوء المدروس بعناية، لنحوّل كل غرفة إلى انعكاسٍ صادق لهوية من يسكنها.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <span>© <span id="year"></span> مسار لاستوديو التصميم الداخلي. جميع الحقوق محفوظة.</span>
+    <span class="hint">masar-viewer — استضافة معارض العملاء</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    fetch('projects.json')
+      .then(function (r) { if (!r.ok) throw new Error('not found'); return r.json(); })
+      .then(function (data) {
+        var list = (data && data.projects) || [];
+        render(list);
+      })
+      .catch(function () {
+        document.getElementById('grid').innerHTML =
+          '<div class="empty">لم يتم رفع أي مشاريع بعد — <b>استخدم أداة النشر لرفع أول مشروع</b></div>';
+      });
+
+    function render(list) {
+      document.getElementById('statProjects').textContent = list.length + '+';
+      var totalRooms = list.reduce(function (n, p) { return n + (p.rooms || 0); }, 0);
+      document.getElementById('statRooms').textContent = totalRooms + '+';
+
+      if (!list.length) {
+        document.getElementById('grid').innerHTML =
+          '<div class="empty">لم يتم رفع أي مشاريع بعد — <b>استخدم أداة النشر لرفع أول مشروع</b></div>';
+        return;
+      }
+      var html = list.map(function (p) {
+        var cover = p.cover
+          ? '<img src="' + p.slug + '/' + p.cover + '" alt="' + esc(p.name) + '" loading="lazy" onerror="this.style.display=\'none\'" />'
+          : '<span class="noimg">م</span>';
+        var chips = '';
+        if (p.rooms) chips += '<span class="chip">' + p.rooms + ' غرفة</span>';
+        if (p.products) chips += '<span class="chip">' + p.products + ' منتج</span>';
+        if (p.pdfs) chips += '<span class="chip">' + p.pdfs + ' PDF</span>';
+        return (
+          '<a class="card" href="' + p.slug + '/">' +
+            '<div class="card-cover">' + cover +
+              '<span class="badge">جولة 360°</span>' +
+            '</div>' +
+            '<div class="card-body">' +
+              '<div class="card-name">' + esc(p.name) + '</div>' +
+              (p.clientName ? '<div class="card-client">' + esc(p.clientName) + '</div>' : '') +
+              (p.description ? '<div class="card-desc">' + esc(p.description) + '</div>' : '') +
+              '<div class="card-meta">' + chips + '</div>' +
+              '<div class="card-cta">ابدأ الجولة <span>←</span></div>' +
+            '</div>' +
+          '</a>'
+        );
+      }).join('');
+      document.getElementById('grid').innerHTML = html;
+    }
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+  </script>
+</body>
+</html>

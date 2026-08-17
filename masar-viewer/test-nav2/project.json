@@ -1,0 +1,89 @@
+{
+  "id": "test-nav2",
+  "name": "مشروع اختبار التنقل",
+  "clientName": "شركة اختبار",
+  "companyName": "",
+  "description": "اختبار أزرار التنقل الجديدة",
+  "location": "",
+  "coverPath": null,
+  "logoPath": null,
+  "floorPlanImage": "assets/images/floor.jpg",
+  "floorPlanPoints": [
+    { "id": "fp1", "roomId": "r1", "x": 30, "y": 40 }
+  ],
+  "products": [],
+  "pdfs": [],
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "المعيشة",
+      "nameEn": "Living",
+      "description": "غرفة المعيشة الرئيسية",
+      "panorama": "assets/images/pano-ا.jpg",
+      "materials": [],
+      "thumbnail": null,
+      "hotspots": [
+        {
+          "id": "n1",
+          "type": "navigate",
+          "yaw": 12,
+          "pitch": -5,
+          "label": "الانتقال إلى المطبخ\nالدخول من الباب الرئيسي",
+          "visible": true,
+          "navStyle": "flag",
+          "targetRoomId": "r2"
+        },
+        {
+          "id": "n2",
+          "type": "navigate",
+          "yaw": -40,
+          "pitch": 5,
+          "label": "غرفة النوم",
+          "visible": true,
+          "navStyle": "arrow",
+          "targetRoomId": "r2"
+        },
+        {
+          "id": "i1",
+          "type": "info",
+          "yaw": 0,
+          "pitch": 0,
+          "label": "بطاقة المعلومة الرئيسية",
+          "visible": true,
+          "infoCardId": "c1"
+        }
+      ],
+      "infoCards": [
+        {
+          "id": "c1",
+          "title": "الكنبة الرئيسية",
+          "description": "كنبة جلدية إيطالية",
+          "images": [],
+          "videos": [],
+          "dimensions": [],
+          "specifications": [],
+          "notes": [],
+          "downloads": [],
+          "links": []
+        }
+      ],
+      "connectedRooms": [],
+      "hidden": false,
+      "order": 1
+    },
+    {
+      "id": "r2",
+      "name": "المطبخ",
+      "nameEn": "Kitchen",
+      "description": "",
+      "panorama": "assets/images/pano-b.jpg",
+      "materials": [],
+      "thumbnail": null,
+      "hotspots": [],
+      "infoCards": [],
+      "connectedRooms": [],
+      "hidden": false,
+      "order": 2
+    }
+  ]
+}

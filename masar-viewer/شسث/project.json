@@ -1,0 +1,120 @@
+{
+  "id": "ri297bnymsid6fwi",
+  "name": "شسث",
+  "clientName": "شيص",
+  "companyName": "صشي",
+  "description": "",
+  "location": "",
+  "coverPath": null,
+  "logoPath": null,
+  "createdAt": 1786072042242,
+  "updatedAt": 1786073929563,
+  "rooms": [
+    {
+      "id": "32hjvn2",
+      "name": "غرفة جديدة 1",
+      "nameEn": "",
+      "description": "",
+      "hotspots": [
+        {
+          "id": "4df7v7l",
+          "type": "navigate",
+          "x": 80.53690498551286,
+          "y": 60.22888284191019,
+          "label": "انتقل إلى…",
+          "visible": true,
+          "targetRoomId": "g2km2q3"
+        },
+        {
+          "id": "op78x8e",
+          "type": "info",
+          "x": 38.6008243011349,
+          "y": 51.15044517854673,
+          "label": "معلومات",
+          "visible": true,
+          "infoCardId": "sizk716"
+        }
+      ],
+      "infoCards": [
+        {
+          "id": "sizk716",
+          "title": "بطاقة معلومات جديدة",
+          "description": "سيبشسبسشي",
+          "images": [
+            "assets/images/ChatGPT_Image_Jun_24_2026_01_25_32_PM.png"
+          ],
+          "videos": [],
+          "dimensions": [],
+          "specifications": [
+            {
+              "key": "",
+              "value": "200"
+            }
+          ],
+          "notes": [
+            "صشيصش"
+          ],
+          "downloads": [],
+          "links": []
+        }
+      ],
+      "materials": [],
+      "connectedRooms": [],
+      "hidden": false,
+      "order": 0,
+      "panorama": "assets/images/images.jpg"
+    },
+    {
+      "id": "g2km2q3",
+      "name": "غرفة جديدة 2",
+      "nameEn": "",
+      "description": "",
+      "hotspots": [],
+      "infoCards": [],
+      "materials": [],
+      "connectedRooms": [],
+      "hidden": false,
+      "order": 1
+    }
+  ],
+  "floorPlanMarkers": [],
+  "products": [
+    {
+      "id": "83x2ht8",
+      "name": "منتج جديد",
+      "category": "",
+      "description": "",
+      "images": [],
+      "dimensions": "",
+      "material": "",
+      "color": "",
+      "buyUrl": "",
+      "tags": [],
+      "createdAt": 1786073868115
+    },
+    {
+      "id": "znv7j57",
+      "name": "منتج جديد",
+      "category": "شنيص",
+      "description": "",
+      "images": [],
+      "dimensions": "",
+      "material": "صشي",
+      "color": "",
+      "buyUrl": "",
+      "tags": [],
+      "createdAt": 1786073844891
+    }
+  ],
+  "pdfs": [
+    {
+      "id": "mnq9izn",
+      "name": "B207A ch5 BY TAREK ALREFAE",
+      "path": "assets/pdfs/B207A_ch5_BY_TAREK_ALREFAE.pdf",
+      "description": "",
+      "linkedRoomIds": [],
+      "linkedProductIds": []
+    }
+  ],
+  "floorPlanImage": "assets/images/download.png"
+}
